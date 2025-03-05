@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
@@ -10,13 +12,11 @@ class HomeScreen extends StatelessWidget {
     return Stack(
       children: [
         Positioned(
-          child: Container(
-            child: Image.asset(
-              'assets/background image.jpg',
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height,
-              fit: BoxFit.cover,
-            ),
+          child: Image.asset(
+            'assets/background image.jpg',
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+            fit: BoxFit.cover,
           ),
         ),
         Positioned(
@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                   foregroundColor: Colors.white,
                 ),
                 onPressed: () {
-                  print('Create Account');
+                  log('Create Account');
                 },
                 child: Text('Create Account'),
               ),
@@ -55,7 +55,7 @@ class HomeScreen extends StatelessWidget {
                   foregroundColor: Colors.white,
                 ),
                 onPressed: () {
-                  print('Login');
+                  log('Login');
                 },
                 child: Text('Login', style: TextStyle(color: Colors.black)),
               ),
