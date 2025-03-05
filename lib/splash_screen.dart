@@ -31,7 +31,7 @@ class SplashScreen extends StatelessWidget {
           ),
           duration: Duration(seconds: 5),
 
-          onEnd: () => context.router.pushPath('/home_screen'),
+          onEnd: () => context.router.pushPath('/home'),
         ),
       ),
     );
