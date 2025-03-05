@@ -1,3 +1,9 @@
 {
-    "dart.flutterSdkPath": "/Users/Murewa/StudioProjects/Stagen/.fvm/versions/3.27.3"
+  "dart.flutterSdkPath": ".fvm/versions/3.29.0",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#142A63",
+    "titleBar.activeBackground": "#1C3A8B",
+    "titleBar.activeForeground": "#FAFBFE"
+  },
+  "workbench.sideBar.location": "right"
 }
